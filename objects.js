@@ -5,4 +5,3 @@ var playlist = {
 function updatePlaylist(obj, artist, title) {
   return obj[artist] = title;
 }
-
