@@ -1,5 +1,4 @@
 var playlist = {
-  eminem: "Wihout Me"
 }
 
 function updatePlaylist(playlist, artist, title) {
