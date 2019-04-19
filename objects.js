@@ -2,6 +2,11 @@ var playlist = {
   eminem: "Wihout Me"
 }
 
-function updatePlaylist(obj, artist, title) {
-  return obj[artist] = title;
+function updatePlaylist(playlist, artist, title) {
+  return playlist[artist] = title;
+}
+
+function removeFromPlaylist(playlist, artist) {
+  delete playlist.artist;
+  return playlist;
 }
